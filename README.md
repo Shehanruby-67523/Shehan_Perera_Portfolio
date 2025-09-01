@@ -1,12 +1,50 @@
-# React + Vite
+# 👋 Hi, I'm Shehan Perera
+- A passionate Computing and Information Systems undergraduate at Sabaragamuwa University of Sri Lanka.
+- A Full Stack Developer.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🚀 About Me
+I'm an undergraduate student with a strong interest in building scalable web applications and exploring the world of cloud computing. I enjoy solving complex problems and am always looking to learn new technologies. I'm currently focused on expanding my skills in web development and DevOps.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<table align="center" border="0">
+  <tr>
+    <td>
+    <h2 font-size=50px>
+          🔧 My Tech Stack
+    </h2>
+      <ul>
+        <li><b>Languages:</b> Python, JavaScript, Java, C</li>
+        <li><b>Frontend:</b> React, HTML, CSS</li>
+        <li><b>Backend:</b> Node.js, Ballerina</li>
+        <li><b>Database:</b> MySQL, MongoDB</li>
+        <li><b>Version Control:</b> GitHub</li>
+      </ul>
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/Shehanruby-67523/Shehanruby-67523/refs/heads/main/Coding.gif" alt="Coding GIF" width=300px height=300px/>
+    </td>
+  </tr>
+</table>
 
-## Expanding the ESLint configuration
+# 🧠 I'm Currently Learning
+- Web Development
+- Cloud Computing
+- Data Science
+- DevOps with Docker & Kubernetes
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🔗 My Projects
+- 🐅 [Big-Cats - Wild Cats Online Learning Platform](https://github.com/Shehanruby-67523/Big-Cats)
+    :A comprehensive online learning platform focused on wild cats, built to provide educational content and resources.
+- 💻 [Python-Password Generator](https://github.com/Shehanruby-67523/python-password-generator)
+    :A simple, command-line password generator application created with Python.
+
+# 📈 My GitHub Stats
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=Shehanruby-67523&show_icons=true&theme=default&hide_border=true" alt="Shehan Perera's GitHub Stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Shehanruby-67523&theme=default&hide_border=true" alt="GitHub Streak" />
+</div>
+
+# 📫 Reach Me
+- Email📧: kurugamaperera2003@gmail.com 
+- LinkedIn💼: https://www.linkedin.com/in/shehan-perera-2642ba316/ 
+- GitHub💻: https://github.com/Shehanruby-67523 
