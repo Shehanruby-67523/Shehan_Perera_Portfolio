@@ -1,5 +1,15 @@
+import { FaReact, FaNodeJs, FaPython, FaJava, FaDatabase, FaDocker, FaAws } from "react-icons/fa";
+
 export default function Skills() {
-  const skills = ["React", "Node.js", "Python", "Java", "SQL", "Docker", "AWS"];
+  const skills = [
+    { name: "React", icon: <FaReact className="text-blue-500 text-2xl" /> },
+    { name: "Node.js", icon: <FaNodeJs className="text-green-500 text-2xl" /> },
+    { name: "Python", icon: <FaPython className="text-yellow-500 text-2xl" /> },
+    { name: "Java", icon: <FaJava className="text-red-500 text-2xl" /> },
+    { name: "SQL", icon: <FaDatabase className="text-indigo-500 text-2xl" /> },
+    { name: "Docker", icon: <FaDocker className="text-blue-400 text-2xl" /> },
+    { name: "AWS", icon: <FaAws className="text-orange-500 text-2xl" /> },
+  ];
   
   return (
     <section id="skills" className="p-10 bg-white">
