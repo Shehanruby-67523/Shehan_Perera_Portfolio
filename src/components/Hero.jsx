@@ -3,9 +3,8 @@ import My_profile from "../assets/My_profile.jpg";
 export default function Hero() {
     return (
         <section className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-900 to-indigo-900 text-white">
-            {My_profile}
             <img
-                src={profilePic}
+                src={My_profile}
                 alt="Profile"
                 className="w-40 h-40 rounded-full border-4 border-white shadow-lg mb-6 hover:scale-105 transition-transform duration-300"
             />
