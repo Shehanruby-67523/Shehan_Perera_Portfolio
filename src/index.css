@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+html {
+  scroll-behavior: smooth;
+}
+
 .wave {
   display: inline-block;
   animation: wave-animation 2s infinite;

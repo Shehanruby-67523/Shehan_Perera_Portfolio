@@ -1,8 +1,7 @@
 export default function Projects() {
   const projects = [
-    { title: "E-Commerce Website", link: "#", desc: "MERN stack online shop." },
-    { title: "Portfolio Website", link: "#", desc: "This personal portfolio." },
-    { title: "DevOps Pipeline", link: "#", desc: "CI/CD setup with GitHub Actions." }
+    { title: "Password Generator", link: "https://github.com/Shehanruby-67523/python-password-generator", desc: "App developed using Python. Can create strong passwords." },
+    { title: "Big Cats Website", link: "https://github.com/Shehanruby-67523/Big-Cats", desc: "ALL the wild big cats in the world." }
   ];
 
   return (
