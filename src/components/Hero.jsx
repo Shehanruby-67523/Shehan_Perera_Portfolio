@@ -25,7 +25,7 @@ export default function Hero() {
             <img
                 src={My_profile}
                 alt="Profile"
-                className="w-60 h-65 rounded-full border-4 border-white shadow-lg mb-6 hover:scale-105 transition-transform duration-300"
+                className="w-60 h-60 rounded-full border-4 border-white shadow-lg mb-6 hover:scale-105 transition-transform duration-300"
             />
             <h1 className="text-5xl font-bold flex items-center gap-2">
                 Hi, I'm Shehan Perera
