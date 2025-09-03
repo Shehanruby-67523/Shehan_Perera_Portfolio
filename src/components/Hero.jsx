@@ -29,7 +29,7 @@ export default function Hero() {
             />
             <h1 className="text-5xl font-bold flex items-center gap-2">
                 Hi, I'm Shehan Perera
-                <span className="wave">🖐</span>
+                <span className="wave">👋</span>
             </h1>
             {/* <p className="mt-4 text-xl">Aspiring Full Stack Developer | React | Python | DevOps</p> */}
             <p className="mt-4 text-xl">{roles[currentRole]}</p>
