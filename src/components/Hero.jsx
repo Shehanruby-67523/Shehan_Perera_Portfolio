@@ -21,7 +21,11 @@ export default function Hero() {
     }, [roles.length]);
     
     return (
-        <section className="h-screen flex flex-col justify-center items-center text-center bg-gradient-to-r from-blue-900 to-indigo-900 text-white">
+        <section 
+            className="h-screen flex flex-col justify-center items-center text-center 
+            bg-gradient-to-r from-blue-900 to-indigo-900 text-white 
+            dark:from-gray-900 dark:to-gray-800 dark:text-gray-100"
+        >
             <img
                 src={My_profile}
                 alt="Profile"

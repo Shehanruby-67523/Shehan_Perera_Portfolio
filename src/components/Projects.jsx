@@ -15,7 +15,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="p-10 bg-gray-50">
+    <section id="projects" className="p-10 bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
       <div className="container mx-auto">
         <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-12">Projects</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

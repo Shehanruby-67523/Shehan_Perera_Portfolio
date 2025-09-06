@@ -12,7 +12,7 @@ export default function Skills() {
   ];
   
   return (
-    <section id="skills" className="p-10 bg-gray-50">
+    <section id="skills" className="p-10 bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
       <h2 className="text-4xl font-extrabold text-center mb-12">My Skills</h2>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {skills.map((skill, i) => (
