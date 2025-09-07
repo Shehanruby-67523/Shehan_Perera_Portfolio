@@ -1,17 +1,21 @@
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
+import passwordGeneratorImage from "../assets/password_generator.png";
+import bigCatsImage from "../assets/big_cats.jpg";
 
 export default function Projects() {
   const projects = [
     { 
       title: "Password Generator", 
       link: "https://github.com/Shehanruby-67523/python-password-generator", 
-      desc: "App developed using Python. Can create strong passwords." 
+      desc: "App developed using Python. Can create strong passwords." ,
+      image: passwordGeneratorImage,
     },
     { 
       title: "Big Cats Website", 
       link: "https://github.com/Shehanruby-67523/Big-Cats", 
-      desc: "All about the wild big cats in the world." 
+      desc: "All about the wild big cats in the world.",
+      image: bigCatsImage,
     }
   ];
 
@@ -58,6 +62,11 @@ export default function Projects() {
               variants={itemVariants}
               className="p-8 bg-white shadow-lg rounded-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-800"
             >
+              <img 
+                src={proj.image} 
+                alt={`${proj.title} project screenshot`} 
+                className="rounded-lg mb-4 object-cover w-full h-48"
+              />
               <h3 className="text-2xl font-bold text-gray-800 mb-2 dark:text-gray-100">
                 {proj.title}
               </h3>
