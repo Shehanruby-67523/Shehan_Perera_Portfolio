@@ -1,4 +1,5 @@
 import { FaGithub } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 export default function Projects() {
   const projects = [
@@ -14,18 +15,53 @@ export default function Projects() {
     }
   ];
 
+  const containerVariants = {
+    hidden: { opacity: 0 },
+    visible: {
+      opacity: 1,
+      transition: {
+        staggerChildren: 0.2,
+      },
+    },
+  };
+
+  const itemVariants = {
+    hidden: { opacity: 0, y: 50 },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } },
+  };
+
   return (
-    <section id="projects" className="p-10 bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
+    <section 
+      id="projects" 
+      className="p-10 bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100"
+    >
       <div className="container mx-auto">
-        <h2 className="text-4xl font-extrabold text-center text-gray-800 mb-12">Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <motion.h2 
+          initial={{ opacity: 0, y: -20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true, amount: 0.5 }}
+          className="text-4xl font-extrabold text-center text-gray-800 mb-12 dark:text-gray-100"
+        >
+          Projects 💻
+        </motion.h2>
+        <motion.div 
+          variants={containerVariants}
+          initial="hidden"
+          whileInView="visible"
+          viewport={{ once: true, amount: 0.3 }}
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
+        >
           {projects.map((proj, i) => (
-            <div 
-              key={i} 
-              className="p-8 bg-white shadow-lg rounded-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+            <motion.div
+              key={i}
+              variants={itemVariants}
+              className="p-8 bg-white shadow-lg rounded-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-800"
             >
-              <h3 className="text-2xl font-bold text-gray-800 mb-2">{proj.title}</h3>
-              <p className="text-gray-600 mb-4">{proj.desc}</p>
+              <h3 className="text-2xl font-bold text-gray-800 mb-2 dark:text-gray-100">
+                {proj.title}
+              </h3>
+              <p className="text-gray-600 mb-4 dark:text-gray-300">{proj.desc}</p>
               <a 
                 href={proj.link} 
                 target="_blank" 
@@ -35,9 +71,9 @@ export default function Projects() {
                 <FaGithub className="text-lg" />
                 View on GitHub
               </a>
-            </div>
+            </motion.div>
           ))}
-        </div>
+        </motion.div>
       </div>
     </section>
   );
