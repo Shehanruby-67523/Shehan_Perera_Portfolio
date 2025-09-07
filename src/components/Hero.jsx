@@ -49,8 +49,7 @@ export default function Hero() {
   return (
     <section 
       className="h-screen flex flex-col justify-center items-center text-center 
-      bg-gradient-to-r from-blue-900 to-indigo-900 text-white 
-      dark:from-gray-900 dark:to-gray-800 dark:text-gray-100"
+      bg-gradient-to-r from-blue-900 to-indigo-900 text-white"
     >
       <motion.div
         variants={containerVariants}
@@ -102,5 +101,5 @@ export default function Hero() {
         </motion.a>
       </motion.div>
     </section>
-  )
+  );
 }

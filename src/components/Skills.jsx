@@ -1,4 +1,5 @@
-import { FaReact, FaNodeJs, FaPython, FaJava, FaDatabase, FaDocker, FaAws } from "react-icons/fa";
+import { FaReact, FaNodeJs, FaPython, FaJava, FaDatabase, FaDocker, FaAws, FaJs, FaGithub, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { SiMongodb, SiC, SiTailwindcss, SiExpress, SiPostman } from "react-icons/si";
 import { motion } from "framer-motion";
 
 export default function Skills() {
@@ -10,6 +11,15 @@ export default function Skills() {
     { name: "SQL", icon: <FaDatabase className="text-indigo-500 text-5xl" /> },
     { name: "Docker", icon: <FaDocker className="text-blue-400 text-5xl" /> },
     { name: "AWS", icon: <FaAws className="text-orange-500 text-5xl" /> },
+    { name: "JavaScript", icon: <FaJs className="text-yellow-400 text-5xl" /> },
+    { name: "C", icon: <SiC className="text-blue-600 text-5xl" /> },
+    { name: "MongoDB", icon: <SiMongodb className="text-green-500 text-5xl" /> },
+    { name: "Git & GitHub", icon: <FaGithub className="text-gray-800 text-5xl" /> },
+    { name: "HTML", icon: <FaHtml5 className="text-orange-500 text-5xl" /> },
+    { name: "CSS", icon: <FaCss3Alt className="text-blue-500 text-5xl" /> },
+    { name: "Tailwind CSS", icon: <SiTailwindcss className="text-cyan-400 text-5xl" /> },
+    { name: "Express.js", icon: <SiExpress className="text-gray-800 text-5xl" /> },
+    { name: "Postman", icon: <SiPostman className="text-orange-500 text-5xl" /> },
   ];
 
   const containerVariants = {
@@ -28,7 +38,7 @@ export default function Skills() {
   };
 
   return (
-    <section id="skills" className="p-10 bg-gray-50 dark:bg-gray-900 dark:text-gray-100">
+    <section id="skills" className="p-10 bg-gray-50 text-gray-800">
       <motion.h2 
         initial={{ opacity: 0, y: -20 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -51,11 +61,10 @@ export default function Skills() {
             key={i} 
             variants={itemVariants}
             className="flex flex-col items-center p-6 bg-white rounded-xl shadow-lg 
-                       transform transition-transform duration-300 hover:scale-105 hover:shadow-xl
-                       dark:bg-gray-800"
+                       transform transition-transform duration-300 hover:scale-105 hover:shadow-xl"
           >
             {skill.icon}
-            <span className="mt-4 text-lg font-bold text-gray-800 dark:text-gray-100">{skill.name}</span>
+            <span className="mt-4 text-lg font-bold text-gray-800">{skill.name}</span>
           </motion.span>
         ))}
       </motion.div>

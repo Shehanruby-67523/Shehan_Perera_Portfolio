@@ -23,7 +23,7 @@ export default function Contact() {
   return (
     <section 
       id="contact" 
-      className="p-10 bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100"
+      className="p-10 bg-gray-50 text-gray-800"
     >
       <motion.div 
         variants={containerVariants}
@@ -50,7 +50,7 @@ export default function Contact() {
           <motion.a
             variants={itemVariants}
             href="mailto:kurugamaperera2003@gmail.com"
-            className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl dark:bg-gray-800"
+            className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl"
           >
             <FaEnvelope className="text-blue-500 text-3xl" />
             <span className="text-lg font-semibold">Email</span>
@@ -60,7 +60,7 @@ export default function Contact() {
             href="https://www.linkedin.com/in/shehan-perera-2642ba316/"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl dark:bg-gray-800"
+            className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl"
           >
             <FaLinkedin className="text-blue-600 text-3xl" />
             <span className="text-lg font-semibold">LinkedIn</span>
@@ -70,7 +70,7 @@ export default function Contact() {
             href="https://github.com/Shehanruby-67523"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl dark:bg-gray-800"
+            className="flex items-center gap-4 p-6 bg-white rounded-xl shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl"
           >
             <FaGithub className="text-gray-800 text-3xl" />
             <span className="text-lg font-semibold">GitHub</span>
@@ -79,36 +79,36 @@ export default function Contact() {
 
         <motion.div 
           variants={itemVariants}
-          className="w-full max-w-lg mx-auto p-8 bg-white rounded-xl shadow-lg dark:bg-gray-800"
+          className="w-full max-w-lg mx-auto p-8 bg-white rounded-xl shadow-lg"
         >
           <form action="https://formspree.io/f/xyzdlpwl" method="POST">
             <div className="mb-4">
-              <label htmlFor="name" className="block text-gray-700 dark:text-gray-300 font-bold mb-2">Name</label>
+              <label htmlFor="name" className="block text-gray-700 font-bold mb-2">Name</label>
               <input
                 type="text"
                 name="name"
                 id="name"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               />
             </div>
             <div className="mb-4">
-              <label htmlFor="email" className="block text-gray-700 dark:text-gray-300 font-bold mb-2">Email</label>
+              <label htmlFor="email" className="block text-gray-700 font-bold mb-2">Email</label>
               <input
                 type="email"
                 name="_replyto"
                 id="email"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               />
             </div>
             <div className="mb-6">
-              <label htmlFor="message" className="block text-gray-700 dark:text-gray-300 font-bold mb-2">Message</label>
+              <label htmlFor="message" className="block text-gray-700 font-bold mb-2">Message</label>
               <textarea
                 name="message"
                 id="message"
                 rows="4"
-                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 dark:bg-gray-700 dark:text-gray-100 dark:border-gray-600"
+                className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
                 required
               ></textarea>
             </div>

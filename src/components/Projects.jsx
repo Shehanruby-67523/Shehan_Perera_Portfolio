@@ -37,7 +37,7 @@ export default function Projects() {
   return (
     <section 
       id="projects" 
-      className="p-10 bg-gray-50 text-gray-800 dark:bg-gray-900 dark:text-gray-100"
+      className="p-10 bg-gray-50 text-gray-800"
     >
       <div className="container mx-auto">
         <motion.h2 
@@ -45,7 +45,7 @@ export default function Projects() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true, amount: 0.5 }}
-          className="text-4xl font-extrabold text-center text-gray-800 mb-12 dark:text-gray-100"
+          className="text-4xl font-extrabold text-center text-gray-800 mb-12"
         >
           Projects 💻
         </motion.h2>
@@ -60,17 +60,17 @@ export default function Projects() {
             <motion.div
               key={i}
               variants={itemVariants}
-              className="p-8 bg-white shadow-lg rounded-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl dark:bg-gray-800"
+              className="p-8 bg-white shadow-lg rounded-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
             >
               <img 
                 src={proj.image} 
                 alt={`${proj.title} project screenshot`} 
                 className="rounded-lg mb-4 object-cover w-full h-48"
               />
-              <h3 className="text-2xl font-bold text-gray-800 mb-2 dark:text-gray-100">
+              <h3 className="text-2xl font-bold text-gray-800 mb-2">
                 {proj.title}
               </h3>
-              <p className="text-gray-600 mb-4 dark:text-gray-300">{proj.desc}</p>
+              <p className="text-gray-600 mb-4">{proj.desc}</p>
               <a 
                 href={proj.link} 
                 target="_blank" 
