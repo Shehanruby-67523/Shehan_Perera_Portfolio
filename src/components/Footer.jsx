@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-[#08090C] py-12 px-6 relative z-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-6">
-        
+
         {/* Brand & Rights */}
         <div className="flex flex-col items-center md:items-start space-y-1">
           <a
@@ -20,7 +20,7 @@ export default function Footer() {
             SHEHAN<span className="text-[#00F0FF]">.</span>
           </a>
           <p className="text-xs text-gray-400 font-mono">
-            © {new Date().getFullYear()} Shehan Perera. Engineered with React & Framer Motion.
+            © {new Date().getFullYear()} Shehan Perera.
           </p>
         </div>
 
