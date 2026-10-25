@@ -56,15 +56,6 @@ export default function Hero() {
         
         {/* Left Column: Bold Editorial Typography & CTA */}
         <div className="lg:col-span-7 flex flex-col items-start space-y-6">
-          
-          {/* Availability Status Badge */}
-          <SmoothReveal delay={0.1}>
-            <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-semibold tracking-wider uppercase">
-              <span className="w-2 h-2 rounded-full bg-emerald-400 animate-ping" />
-              <span>Available for Opportunities</span>
-            </div>
-          </SmoothReveal>
-
           {/* Large Bold Editorial Headline */}
           <SmoothReveal delay={0.2}>
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-black tracking-tight text-white leading-[1.08]">
